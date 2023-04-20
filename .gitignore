@@ -1,0 +1,3 @@
+events.proto
+scripts/events.txt
+liveapi/events.pb.go

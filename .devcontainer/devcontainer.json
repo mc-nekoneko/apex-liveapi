@@ -1,0 +1,13 @@
+{
+	"name": "Go",
+	"image": "mcr.microsoft.com/devcontainers/go:0-1-bullseye",
+	"mounts": [
+		"source=${localEnv:HOME}/.config/gh,target=/home/node/.config/gh,type=bind,consistency=cached"
+	],
+	"extensions": [
+		"GitHub.copilot"
+	],
+	"features": {
+		"github-cli": "latest"
+	}
+}
